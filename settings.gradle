@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "NavigationMultiGraph"
 include ':app'
-include ':nav-route-screen'
 include ':ui-login'
+include ':lib_base'

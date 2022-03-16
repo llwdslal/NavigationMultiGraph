@@ -2,10 +2,10 @@ package com.rock.ui_login.screens
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
-import androidx.navigation.compose.composable
 import androidx.navigation.navigation
-import com.rock.nav_route_screen.Screen
-import com.rock.nav_route_screen.composableScreen
+import com.rock.lib_base.navigation.Screen
+import com.rock.lib_base.navigation.composableScreen
+
 import com.rock.ui_login.Login
 import com.rock.ui_login.ResetPwd
 
@@ -17,6 +17,7 @@ sealed class LoginScreen(route:String): Screen(route){
         get() = root
 
     object Login:LoginScreen("login")
+
     object ResetPwd:LoginScreen("reset_pwd")
 }
 
