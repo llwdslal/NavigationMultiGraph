@@ -16,3 +16,4 @@ rootProject.name = "NavigationMultiGraph"
 include ':app'
 include ':ui-login'
 include ':lib_base'
+include ':ui-home'

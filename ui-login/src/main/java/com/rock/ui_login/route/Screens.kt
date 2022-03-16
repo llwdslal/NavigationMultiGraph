@@ -1,4 +1,4 @@
-package com.rock.ui_login.screens
+package com.rock.ui_login.route
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
